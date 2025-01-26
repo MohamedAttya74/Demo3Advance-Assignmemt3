@@ -281,9 +281,10 @@
 
             //       } 
             #endregion
-      
-        
-               DelegateDoAction()();
+
+            Action X = DelegateDoAction();
+            
+            DelegateDoAction()();
         
         
         
